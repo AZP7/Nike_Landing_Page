@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Slabo+27px&display=swap');
 @import "tailwindcss";
 
 @theme{
     --nike-color : #f72f2f;
     --primary-background-color : #f72f2f;
     --primary-text:#fff;
+    --bg-color:#f5f6ff;
     --secondary-text : grey;
 }
 *{
     overflow-x: hidden;
+    scrollbar-width: none;
 }
 .nav_ul{
     display: flex;
@@ -21,4 +24,27 @@
     cursor: pointer;
     width: 100%;
     text-align: center ;
+}
+.engament{
+    font-family: "Barlow", sans-serif;
+}
+.element {
+  background-image: url('./assets/images/collection-background.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.thumbnail{
+  
+  background-image: url('./assets/images/thumbnail-background.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.thumbnail:hover{
+    border: 1px solid var(--nike-color);
+}
+.poppins{
+    font-family: "Poppins", sans-serif;
 }
