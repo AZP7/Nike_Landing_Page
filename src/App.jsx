@@ -12,7 +12,6 @@ function App() {
     <>
     <Header />
     <Section />
-    <Hero />
     <Product />
     <Shipping/>
     <Review/>

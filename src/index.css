@@ -9,8 +9,15 @@
     --secondary-text : grey;
 }
 *{
-    overflow-x: hidden;
     scrollbar-width: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body, html{
+    overflow-x: hidden;
+}
+.section{
+    overflow: visible !important;
 }
 .nav_ul{
     display: flex;
