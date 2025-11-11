@@ -10,7 +10,7 @@ function Footer() {
     
   return (
 
-    <footer className='w-full flex flex-col '>
+    <footer className='w-full flex flex-col pt-[5%]'>
 
         <div className='flex flex-col lg:flex-row justify-center lg:justify-around mt-8 ps-7 pb-7 lg:items-center items-start'>
             <h1 className='text-4xl text-left lg:w-[40%] w-[60%] leading-normal ps-3 mb-6 font-bold poppins'>Sign Up for <span className='text-[var(--nike-color)] '>Updates </span>& Newsletter</h1>

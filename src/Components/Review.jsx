@@ -18,7 +18,7 @@ function Review() {
     ]
 
   return (
-    <section className='bg-[var(--bg-color)] w-full md:pt-[8%] pb-10 lg:pb-[10%]'>
+    <section className='bg-[var(--bg-color)] border-red-500 w-full lg:mt-[8%] md:pt-[8%] pb-10 lg:pb-[10%]'>
 
         <div className='w-full flex flex-col justify-center mb-6 items-center'>
             <h2 className='text-4xl w-[65%] text-center font-bold poppins'>What Our <span className='text-[var(--nike-color)]'>Customers </span>Say?</h2>

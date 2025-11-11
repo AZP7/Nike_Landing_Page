@@ -27,7 +27,7 @@ function Section() {
         <div className='w-full p-2 lg:ps-[10%] flex lg:h-[100vh] flex-col !overflow-visible justify-center lg:pb-10 lg:pt-10'>
 
             <span className='m-2 text-[var(--nike-color)] text-xl '>Our Summer collections</span>
-            <p className='text-7xl hidden lg:block w-[53vw] p-2 ps-0 bg-white pb-6 pe-1 font-semibold text-left z-10' >The New Arrival</p>
+            <p className='text-7xl xl:text-hudge hidden h-[auto] lg:block xl:w-[55vw] w-[53vw] p-2 ps-0 bg-white pb-6 pe-1 font-semibold text-left z-10' >The New Arrival</p>
             <p className='text-7xl hidden lg:block font-semibold' ><span className='text-[var(--nike-color)] '>Nike</span> Shoes</p>
 
             <h1 className='text-6xl bg-white lg:mt-8 z-10 section lg:hidden lg:w-[60vw] leading-20 h-auto md:w-[60%] text-wrap text-left m-2 font-bold'>The New Arrival <span className='text-[var(--nike-color)]'>Nike</span> Shoes</h1>
